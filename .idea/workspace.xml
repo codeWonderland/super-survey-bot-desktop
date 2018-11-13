@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be9c7947-1d21-4487-9dba-356eebe3d7de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/pa4 - mpds and reinforcement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS AND...MINI WRITING ASSIGNMENT #1/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Draft Annotated Bibliography - DUE AT YOUR TUTORIAL/Annotated Bibliography-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Draft Annotated Bibliography - DUE AT YOUR TUTORIAL/Annotated Bibliography.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Hackathon 2017 - The Original Position - GROUP PRESENTATION - SUBMIT YOUR PRESENTATION HERE!/Betsy- Final.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Hackathon 2017 - The Original Position - GROUP PRESENTATION - SUBMIT YOUR PRESENTATION HERE!/ProductivityCommunity.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Infographic about the Four Migrations/doc153340.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Research Paper Final Version - Due at Your Tutorial (the due date in Canvas is just a reminder!)/Research Paper-2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Research Paper Part One - Due at Your Tutorial (the due date in Canvas is just to remind you to do it!)/Research Paper.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Research Paper Part Two - Due at Your Tutorial - The Canvas Date is Just a Reminder!/Research Paper-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Research Paper Proposal Due/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-120-01/02: Concepts of Community - Spring 2017 (2017SP)/Research Paper Proposal Due/submission_text_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Annotated Bibliography/Annotated Bibliography.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/DIY Constitution/Constitution of Underland.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Final Inclusive Community Project/TranSource writeup.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Flash Soapbox Supporting Materials/Messages-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Lawson Cultural Dilemmas in Practicing the Public Argument Assessment/Argument Assessment.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Letter From Birmingham Jail Argument Assessment/MLK Letter from Birmingham Jail Analysis.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Obama Farewell Address Argument Assessment/Argument Assessment - Obama Speech.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-125-01: The Rhetoric of Community - Spring 2017 (2017SP)/Soapbox Draft Assignment/Messages.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/Ideas of Progress/Defining Progress.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/Out-of-the-Box/The Missing Generation_ Voices from the Early AIDS Epidemic-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/Out-of-the-Box/The Missing Generation_ Voices from the Early AIDS Epidemic-2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/Out-of-the-Box/The Missing Generation_ Voices from the Early AIDS Epidemic.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/iSearch Paper/Overpopulation-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-310-05: The Global Condition - Fall 2017 (2017FA)/iSearch Paper/Overpopulation.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Appiah Ch 2 and Ch 3 Reflection/Cosmopolitanism Ch. 2 &amp; 3.23.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Appiah Intro and Ch 1 Reflection /Cosmopolitanism Intro and Ch. 1.1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/FGC, MGC and Universal Human Rights/FGC, MGC and Universal Human Rights-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/FGC, MGC and Universal Human Rights/FGC, MGC and Universal Human Rights.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Human Rights--Ch 4 of Intro to Global Studies /Intro to Global Studies Ch 4 Reflection.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Sapiens Ch 3 &amp; 4/Sapiens Ch 3 &amp; 4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Sapiens ch 7 &amp; 8/Sapiens Chapter 7 and 8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Stage Mothers Reflection/Stage Mothers Reflection.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Telling Our Stories Part 1:  Writing Your Story/Telling Our Stories Pt. 1.1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-320-01: Human Rights &amp; Responsibility - Fall 2017 (2017FA)/Telling Our Stories Reflection/Telling Our Stories Notes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Dropbox for links and images /20130907_184605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Dropbox for links and images /f991f34cc044e617114e1834cdca6bc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Dropbox for links and images /ofrendas-candomble.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Dropbox for links and images /ofrendas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Dropbox for links and images /tumblr_p3krfif8dI1rf9hn3o2_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/Reading/Media Response #1/Reading/Media Response 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/The Dossier Project/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COR-330-04: Shaking the Spirit - Spring 2018 (2018SP)/The Dossier Project/submission_link_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/App Presentation/Instagram Presentation-1.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/App Presentation/Instagram Presentation.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Problem Set 1/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Problem Set 2/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Problem Set 3/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Problem Set 4/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Problem Set 5/Problem Set 5.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Project 1/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Project 2/submission_link_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-120-01/02/03: Intro to Mobile Development - Fall 2016 (2016FA)/Project 3/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Final Project/Final Project-1.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Final Project/Final Project.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 08: Number System Converter/Lab 8.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 08: Number System Converter/Lab8.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 09: Decomposition/Untitled.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 2/Tutorial Files - Alice Easter.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/lab03-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/lab03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/tutorial2-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/tutorial2-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 3/tutorial2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 4: Loan Calculator/lab 4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 5: BAC/lab5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 6: Factorial and Speed Calculator/Lab 6a.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 6: Factorial and Speed Calculator/Lab 6a.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/Lab 6: Factorial and Speed Calculator/Lab 6b.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/PA 1/PA1_3-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-140-08: Introduction to Programming - Fall 2016 (2016FA)/PA 1/PA1_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Eleven: Lab Ten redux/assignmentEleven.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Five: Mystic Hallway/mysticHallway.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Four: Story Generator Sequel/storygeneratorsequel-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Four: Story Generator Sequel/storygeneratorsequel.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Nine: Magic 8 ball/magiceightball.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment One: Phrase-O-Matic/PhraseOMatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Seven: Mystic Hallway 3/MysticHallway3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Six: Mystic Hallway 2/MysticHallway2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Ten: Big Dice/bigdice.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Three: Trivia Flashcards/FlashCardGame.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Twelve: Lab Eleven redux/assignment12-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Twelve: Lab Eleven redux/assignment12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Two: Story Generator/Archive-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Two: Story Generator/Archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Assignment Two: Story Generator/Story Generator.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Final Exam Final Question/finalexam.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Final Project/robocode.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Eight: Abstract Classes/lab8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Eleven: More Swing/assignmentEleven-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Eleven: More Swing/lab11.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Five: JUnit and enhanced for loops/lab5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Four: Advanced methods/lab4-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Four: Advanced methods/lab4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Nine: Static fields and methods/lab9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab One: Getting started/Lab1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Seven: Interfaces/lab7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Six: Inheritance/lab6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Ten: Basic GUIs/lab10-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Ten: Basic GUIs/lab10.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Three: Working with fractions/Lab3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Two: Classes and user input /Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Two: Classes and user input /Conversation_Bot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Two: Classes and user input /LoopPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-150-51: Java Programming - Spring 2017 (2017SP)/Lab Two: Classes and user input /cardDealer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Appreciation and Gratitude/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Assignment - Quantum Computing, 4D Printing and 802.11 ax/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Assignment - Quantum Computing, 4D Printing and 802.11 ax/submission_text_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Business Pitch Competition #1/Errands.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Business Pitch Competition #2/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Emerging hardware technology platforms/MorseCodeTransmitter.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Emerging hardware technology platforms/emerginghardwareessay-final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Final Project /Write Up.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/In-Class Assignment - Connectivity Module for IoT/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/In-Class Assignment: Programming Languages/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Information Superhighway/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Learning How to Problem Solve/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Linux Operating System/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Midterm Exam - Self Assessment/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Personal Goals Statement /submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Project Update/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-180-52: Innov I: Intro to Emerg. Tech - Spring 2017 (2017SP)/Why did it flop?/Windows Phone.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Final Exam Prep - Practice what you've learned/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Bash Shell Script/bashshit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Bash script guessing number game/guessUntil" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Bash script guessing number game/guessWhile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Bash script to add a series of number (command line)/addnum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Build three Linux environments /submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Create a C Program to copy bytes from a file/main-1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Create a C program which talks to the Kernel/talk kernal to me-1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Create a C program which talks to the Kernel/talk kernal to me.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Edit Startup Scripts and Configure your environment/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Edit Startup Scripts and Configure your environment/submission_text_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Edit Startup Scripts and Configure your environment/submission_text_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Links/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Networking/Screen Shot 2017-10-02 at 6.25.05 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Networking/Screen Shot 2017-10-02 at 6.27.50 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - Text Processing/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/Homework - View and change permissions/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Access the Champlain College Linux Server/Screen Shot 2017-08-30 at 5.43.10 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Bash Script to generate a System Information Report/sysinforpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - C Program - Processes/process.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Create two C Programs/foo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Create two C Programs/foo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Create two C Programs/hello.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Create two C Programs/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Getting familiar with Linux/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Manipulating Files &amp; Directories/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-230-51: Linux/Unix Programming - Fall 2017 (2017FA)/In Class Exercise - Partitioning, Formatting, and Mounting Drives/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Final Project/Chatterbox-master(1)-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Final Project/Chatterbox-master(1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Final Project/Chatterbox-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab Exercise -- TCP/feb27 | Networking.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab Exercise -- UDP/Alice Easter Lab UDP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab/HW 1/hosts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab/HW 2/udp_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab/HW 4 - Server Architecture, AsyncIO and Multi-Threading/magic-eight-ball.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-235-01/02: Network Programming - Spring 2018 (2018SP)/Lab/HW3 - TCP Socket Programming/upload_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Final Project/Faint-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Final Project/Faint.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab 1 -- Multi-Dimensional Arrays/Lab 1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab 3 - Pointers/Archive-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab 4 - More Objects/Lab4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab 6 - Linked Lists/lab6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab 7 - Inheritance/lab7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab2 -- Class Basics/Archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/Lab2 -- Class Basics/Lab2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 1 -- Part 1/PA1-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 1 -- Part 1/PA1-2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 1 -- Part 1/PA1-3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 1 -- Part 1/PA1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 1 -- Part 2/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 2/PA2-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 2/PA2-2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA 2/PA2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA3/PA3-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-240-05/07: Advanced Programming - Spring 2017 (2017SP)/PA3/PA3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 1/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 1/submission_link_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 4/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 4/submission_text_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 5/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Assignment 6/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Extra Credit Assignment 1/submission_link_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-280-01/02: Innov II:Open Source Soft Dev - Spring 2018 (2018SP)/Presentation/Apache HTTP Server Prestintation.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA1 - Part 1/PA1 - Kampaa.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA1 - Part 2/Darjeeling-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA1 - Part 2/Darjeeling.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA1 - Part 2/keemun-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA1 - Part 2/keemun.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA2/PA2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA3 - Part 1/PA3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA3 - Part 2/PA3-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA4/PA4-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA4/PA4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 1/PA 5 report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/PA 5 report (2)-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/PA 5 report (2).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/PA 5 report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/data-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/functions-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/functions-1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/functions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/output-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/pa5-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/pa5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/randint-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA5 - Part 2/randint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA6 - Part 1/bst.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA6 - Part 1/pa6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA7/PA7.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA7/avl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/PA7/stub.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/Part 1/Final Report Template.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/Part 2/Final Project Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/Part 3 &amp; 4/Final Project Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-281-01: Data Structures &amp; Algorithms - Fall 2017 (2017FA)/Part 3 &amp; 4/fa17-csi281-decosta-easter.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Final Exam Submission/final_exam.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Final Exam: XML Work/customers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Final Exam: XML Work/customers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Midterm/AliceFinnWalterMidterm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Midterm/Alice_Finn_Walter_Midterm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Project 1 - Burlington Property Analysis/Project1 Sql.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Project 2 - Twitter Data Model/Project_2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Project 3 - Twitter Front-end/NoSQL Research Paper/CYOSP-Twitter-master-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Project 3 - Twitter Front-end/NoSQL Research Paper/CYOSP-Twitter-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Submit Problem Set 1/problem set 1-1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Submit Problem Set 1/problem set 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Submit Problem Set 2/problem_set_2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-300-02: Database Management Systems - Spring 2018 (2018SP)/Submit Problem Set 3/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/android-programming-3e/13_Toolbar/CriminalIntent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/android-programming-3e/13_Toolbar/CriminalIntent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/android-programming-3e/13_Toolbar/CriminalIntent/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/android-programming-3e/13_Toolbar/CriminalIntent/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/app/src/main/java/us/cyosp/codewonderland/problem_set_4/controller/PlanetListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/problem_set_4/app/src/main/java/us/cyosp/codewonderland/problem_set_4/controller/PlanetListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/assets/quiz_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/assets/quiz_data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/controller/QuizManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/model/Question.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/model/Question.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/model/Quiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/model/Quiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/java/us/cyosp/codewonderland/champlaintrivia/view/QuizSelection.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/layout/quiz_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/layout/quiz_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/Lab5ECFinal/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/controller/ColonyFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/controller/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/controller/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/model/Cell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/model/Cell.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/model/Colony.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/java/us/cyosp/codewonderland/project_2/model/Colony.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/layout/fragment_cell.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/layout/fragment_colony.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-319-01 - Android Development - Fall 2018 (2018FA)/project_2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-319-01: Android Development - Fall 2018 (2018FA)/android-programming-3e/07_UIFragments/CriminalIntent/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Annotated bibliography/Ethics of Bug Fixing (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Annotated bibliography/Ethics of Bug Fixing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Annotation 1 Review/Global IT &amp; Ethics Annotated Bibliography.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Choose final paper topic/submission_text_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Debate 1 postmortem/Debate Postmortem.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Extra credit: Blade Runner review/Blade Runner 2049 Review.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Final project (paper)/Ethics of Bug Fixing, The.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Final project (presentation)/Case study.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Midterm /Midterm Essay-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Midterm /Midterm Essay.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Presentation 1/Healthcare and IoT.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-320-01: Global IT &amp; Ethics - Fall 2017 (2017FA)/Presentation 2 (upload slides)/Should we Live in the Matrix.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Activity 3/main.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Activity 3/nasm_assignment.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 10/PowerPC 750.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 11/fileio.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 3/asm3_1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 3/asm3_4.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 4/asm4_2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 4/main-1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 4/main-2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 5/asm5.1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 6/code.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 6/code.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 6/main-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 6/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 8/asm8.1-1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 8/asm8.1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 9/main-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Assignment 9/main-3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Midterm Exam - Part 1/midterm_nasm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Midterm Exam - Part 2/mid2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Project/Calculator_Comparison-master-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Project/Calculator_Comparison-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Research 1 - Project/wtms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-370-01: Computer Architecture - Spring 2018 (2018SP)/Research 1 - Project/wtms.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming  - Hangman/hangman-client-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming  - Hangman/hangman-server-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming - Elm Architecture/assignment-3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming - Elm Architecture/gdax.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming - Elm features/elm-practice-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-380-51: Innov III: Emerging Lang. - Spring 2018 (2018SP)/Programming - Elm features/elm-practice.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/.idea/pa1 - python practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/.idea/pa1 - python practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/shop_smart.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa1 - python practice/shop_smart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search_agents.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search_agents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search_test_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa2 - search/search_test_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa3 - multi-agent search/.idea/pa3 - multi-agent search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa3 - multi-agent search/.idea/pa3 - multi-agent search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FontGenerator/.idea/artifacts/JavaFXApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FontGenerator/src/controller/DrawPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/controller/DrawPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1542151706795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="213952819">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="100" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1542151496488" expanded="true" signature="99:407" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/__main__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="140" />
+    <option name="y" value="44" />
+    <option name="width" value="1400" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webcrawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be9c7947-1d21-4487-9dba-356eebe3d7de" name="Default Changelist" comment="" />
+      <created>1542151084221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542151084221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1542151496488" expanded="true" signature="99:407" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
