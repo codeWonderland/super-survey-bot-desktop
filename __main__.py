@@ -1,59 +1,122 @@
-from selenium import webdriver
-import time
+from swagbucks import SwagbucksCrawler
+
+import kivy
+kivy.require('1.0.6')
+
+from kivy.app import App
+from kivy.lang import Builder
+from kivy.uix.gridlayout import GridLayout
+from kivy.properties import StringProperty
+from kivy.uix.togglebutton import ToggleButton
+
+Builder.load_string("""
+<QuestionScreen>:
+    id: question_screen
+    cols: 1
+    Label:
+        id: question_text
+        text: root.current_question
+        size_hint_y: None
+        height: '48dp'
+    GridLayout:
+        id: answer_container
+        cols: 2
+        padding: 5,5,5,5
+    AnchorLayout:
+        size_hint_y: None
+        height: '48dp'
+        Button:
+            id: answer_button
+            size_hint_y: None
+            height: '48dp'
+            size_hint_x: None
+            width: '80dp'
+            text: 'Confirm'
+            anchor_x: 'center'
+            on_press: root.answer_question()
+    
+""")
 
 
-def start_crawler():
-    # get instance of driver
-    driver = webdriver.Chrome()
+class QuestionScreen(GridLayout):
+    current_question = StringProperty()
 
-    # load up the login page
-    driver.get("https://www.swagbucks.com/p/login")
+    def __init__(self, **kwargs):
+        super(QuestionScreen, self).__init__(**kwargs)
 
-    # while until the user has logged in
-    while "Login | Swagbucks" in driver.title:
-        time.sleep(5)
+        self.crawler = SwagbucksCrawler(True)
+        self.current_question = 'Hello World!'
 
-    # navigate to the survey page
-    driver.execute_script(open("./js/open_survey.js").read())
+        question_data = self.crawler.get_question()
 
-    # since we called the survey page via js
-    # we wait for the survey page to load
-    while "Gold Surveys | Swagbucks" not in driver.title:
-        time.sleep(5)
+        self.set_question(question_data)
 
-    # this program is meant to just wash, rinse, repeat forever
-    while True:
-        # grab question data from page
-        question_data = driver.execute_script(open("./js/get_question.js").read())
+    def set_question(self, question_data):
+        if question_data is not None:
+            self.current_question = question_data["question"]
 
-        # delegate decision
-        user_answer = answer_question(question_data)
+            if question_data["type"] == 'select':
+                for answer_option in question_data["answers"]:
+                    if answer_option["data-value"] is not None:
+                        option = ToggleButton(
+                            text=answer_option["text"],
+                            id=answer_option["data-value"]
+                        )
 
-        # send answer to page
-        driver.execute_script(open("./js/answer_question.js").read(), user_answer)
+                        self.ids['answer_container'].add_widget(option)
 
-        # wait for js to finish and new page to load
-        time.sleep(3)
+            elif question_data["type"] == 'checkbox':
+                for answer_option in question_data["answers"]:
+                    if answer_option["data-value"] is not None:
+                        option = ToggleButton(
+                                text=answer_option["text"],
+                                id=answer_option["data-value"],
+                                group='radio'
+                            )
+
+                        self.ids['answer_container'].add_widget(option)
+
+    def answer_question(self):
+        # Get list of all answer options
+        answers = self.ids['answer_container'].children
+
+        # Filter answers for selected ones
+        answers = list(
+            filter(
+                lambda x: x.state == 'down',
+                answers
+            )
+        )
+
+        # Get answer id list
+        answers = list(
+            map(
+                lambda x: x.id,
+                answers)
+        )
+
+        # Formatting Data
+        answers = ','.join(answers)
+
+        # Send answer and get new question
+        new_question = self.crawler.send_answer(answers)
+
+        # Clear the board
+        self.ids['answer_container'].clear_widgets()
+
+        # Set Next Question
+        self.set_question(new_question)
 
 
-def answer_question(question_data):
-    print(question_data["question"])
+class SurveyBot(App):
 
-    for answer_option in question_data["answers"]:
-        if answer_option["data-value"] is not None:
-            print(answer_option["data-value"] + ") " + answer_option["text"])
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
-    user_answer = None
-
-    while user_answer is None:
-        user_answer = input("Which answer(s) do you choose (enter the number(s) as comma seperated list): ")
-
-        for user_choice in user_answer.split(','):
-            if user_choice not in map(lambda choice: choice["data-value"], question_data["answers"]):
-                user_answer = None
-
-    return user_answer
+    def build(self):
+        self.title = 'Super Survey Bot-Inator 9000'
+        return QuestionScreen()
 
 
 if __name__ == "__main__":
-    start_crawler()
+    SurveyBot().run()

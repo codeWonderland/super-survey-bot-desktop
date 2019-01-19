@@ -25,15 +25,18 @@ if (survey_question.length) {
     // grab answer options
     let answer_options = survey_question.getElementsByClassName("questionDropdownOptions");
 
-    if (answer_options.classList.contains("activeSelectMenu")) {
-        question_data["type"] = 'checkbox';
-    } else {
-        question_data["type"] = 'select'
 
-    }
 
     // if reference is valid
     if (answer_options.length) {
+
+        // check answer options for type of question
+    if (answer_options[0].classList.contains("activeSelectMenu")) {
+        question_data["type"] = 'checkbox';
+
+    } else {
+        question_data["type"] = 'select'
+    }
 
         // grab answer options
         answer_options = Array.from(answer_options[0].getElementsByTagName("span"));
