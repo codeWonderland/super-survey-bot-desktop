@@ -1,4 +1,5 @@
 from swagbucks import SwagbucksCrawler
+from swagbucks import SwagbucksTestCrawler
 
 import kivy
 kivy.require('1.0.6')
@@ -44,7 +45,9 @@ class QuestionScreen(GridLayout):
     def __init__(self, **kwargs):
         super(QuestionScreen, self).__init__(**kwargs)
 
-        self.crawler = SwagbucksCrawler(True)
+        # TODO: Return to normal after testing
+        # self.crawler = SwagbucksCrawler()
+        self.crawler = SwagbucksTestCrawler()
         self.current_question = 'Hello World!'
 
         question_data = self.crawler.get_question()
