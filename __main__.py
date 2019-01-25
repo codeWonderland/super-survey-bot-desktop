@@ -46,8 +46,8 @@ class QuestionScreen(GridLayout):
         super(QuestionScreen, self).__init__(**kwargs)
 
         # TODO: Return to normal after testing
-        # self.crawler = SwagbucksCrawler()
-        self.crawler = SwagbucksTestCrawler()
+        self.crawler = SwagbucksCrawler()
+        # self.crawler = SwagbucksTestCrawler()
         self.current_question = 'Hello World!'
 
         question_data = self.crawler.get_question()

@@ -15,7 +15,7 @@ class SwagbucksCrawler:
             time.sleep(5)
 
         # navigate to the survey page
-        self.driver.execute_script(open("./js/open_survey.js").read())
+        self.driver.get("https://www.swagbucks.com/surveys")
 
         # since we called the survey page via js
         # we wait for the survey page to load
