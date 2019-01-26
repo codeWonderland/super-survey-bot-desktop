@@ -1,12 +1,12 @@
-from swagbucks import SwagbucksCrawler
-from swagbucks import SwagbucksTestCrawler
-from data_manager import SSBDataManager
+from util.swagbucks import SwagbucksCrawler
+from util.swagbucks import SwagbucksTestCrawler
+from util.data_manager import SSBDataManager
 
 import kivy
 
 from kivy.app import App
 from kivy.lang import Builder
-from kivy.uix.tabbedpanel import TabbedPanel, TabbedPanelHeader, TabbedPanelContent
+from kivy.uix.tabbedpanel import TabbedPanel, TabbedPanelHeader
 from views.question_screen import QuestionScreen
 
 kivy.require('1.0.6')

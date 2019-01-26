@@ -7,6 +7,8 @@
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/pa4 - mpds and reinforcement.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/network_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS AND...MINI WRITING ASSIGNMENT #1/submission_text_1.html" beforeDir="false" />
@@ -330,7 +332,10 @@
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagbucks.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/swagbucks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,28 +349,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+            <state relative-caret-position="361">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="e#258#265#0" />
                 <element signature="e#505#1121#0" />
+                <element signature="e#1428#1988#0" />
                 <element signature="e#1372#1432#0" />
-                <element signature="e#1887#2447#0" />
+                <element signature="e#1439#1696#0" />
                 <element signature="e#3349#3424#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/network_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <element signature="e#237#248#0" expanded="true" />
+                <element signature="e#5123#8077#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/ca.crt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/question_screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <element signature="e#224#824#0" />
@@ -383,14 +407,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_manager.py">
+        <entry file="file://$PROJECT_DIR$/util/data_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="171">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
+                <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#69#92#0" />
                 <element signature="e#150#241#0" />
-                <element signature="e#390#497#0" />
+                <element signature="e#308#414#0" />
+                <element signature="e#303#331#0" />
+                <element signature="e#383#671#0" />
                 <element signature="e#149#164#0" />
               </folding>
             </state>
@@ -398,15 +425,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swagbucks.py">
+        <entry file="file://$PROJECT_DIR$/util/swagbucks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="171">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#101#681#0" />
                 <element signature="e#719#789#0" />
-                <element signature="e#839#1087#0" />
                 <element signature="e#1156#3092#0" />
                 <element signature="e#3142#3195#0" />
                 <element signature="e#3267#3899#0" />
@@ -464,12 +490,13 @@
         <option value="$PROJECT_DIR$/js/answer_dropdown.js" />
         <option value="$PROJECT_DIR$/js/open_survey.js" />
         <option value="$PROJECT_DIR$/js/get_question.js" />
-        <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/views/DashboardScreen.py" />
         <option value="$PROJECT_DIR$/js/answer_question.js" />
         <option value="$PROJECT_DIR$/views/QuestionScreen.py" />
         <option value="$PROJECT_DIR$/swagbucks.py" />
+        <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/util/network_manager.py" />
       </list>
     </option>
   </component>
@@ -494,17 +521,7 @@
             <path>
               <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -521,7 +538,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/venv/bin" />
     </key>
   </component>
@@ -578,12 +599,12 @@
       <updated>1542151084221</updated>
       <workItem from="1548378503854" duration="2058000" />
       <workItem from="1548427235162" duration="2158000" />
-      <workItem from="1548517812860" duration="9490000" />
+      <workItem from="1548517812860" duration="11624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13706000" />
+    <option name="totallyTimeSpent" value="15840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +619,7 @@
     <frame x="0" y="-24" width="1920" height="1199" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18254818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18254818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,7 +633,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031906" side_tool="true" weight="0.53407824" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33679244" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33679244" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="right" x="0" y="0" width="430" height="999" id="Documentation" side_tool="true" weight="0.32976446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -741,10 +762,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/swagbucks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#101#681#0" />
+            <element signature="e#719#789#0" />
+            <element signature="e#1156#3092#0" />
+            <element signature="e#3142#3195#0" />
+            <element signature="e#3267#3899#0" />
+            <marker date="1548533198642" expanded="true" signature="92:687" ph="..." />
+            <marker date="1548533198642" expanded="true" signature="790:795" ph="..." />
+            <marker date="1548533198642" expanded="true" signature="830:839" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/question_screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#224#824#0" />
@@ -758,49 +797,48 @@
     <entry file="file://$PROJECT_DIR$/views/dashboard_screen.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_manager.py">
+    <entry file="file://$PROJECT_DIR$/util/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="171">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
+            <element signature="e#0#13#0" expanded="true" />
             <element signature="e#69#92#0" />
             <element signature="e#150#241#0" />
-            <element signature="e#390#497#0" />
+            <element signature="e#308#414#0" />
+            <element signature="e#303#331#0" />
+            <element signature="e#383#671#0" />
             <element signature="e#149#164#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagbucks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#101#681#0" />
-            <element signature="e#719#789#0" />
-            <element signature="e#839#1087#0" />
-            <element signature="e#1156#3092#0" />
-            <element signature="e#3142#3195#0" />
-            <element signature="e#3267#3899#0" />
-            <marker date="1548533198642" expanded="true" signature="92:687" ph="..." />
-            <marker date="1548533198642" expanded="true" signature="790:795" ph="..." />
-            <marker date="1548533198642" expanded="true" signature="830:839" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        <state relative-caret-position="361">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#258#265#0" />
             <element signature="e#505#1121#0" />
+            <element signature="e#1428#1988#0" />
             <element signature="e#1372#1432#0" />
-            <element signature="e#1887#2447#0" />
+            <element signature="e#1439#1696#0" />
             <element signature="e#3349#3424#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/ca.crt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/network_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#237#248#0" expanded="true" />
+            <element signature="e#5123#8077#0" />
           </folding>
         </state>
       </provider>
