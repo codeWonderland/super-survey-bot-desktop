@@ -1,51 +1,31 @@
 from swagbucks import SwagbucksCrawler
 from swagbucks import SwagbucksTestCrawler
+from data_manager import SSBDataManager
 
 import kivy
-kivy.require('1.0.6')
 
 from kivy.app import App
 from kivy.lang import Builder
-from kivy.uix.gridlayout import GridLayout
-from kivy.properties import StringProperty
-from kivy.uix.togglebutton import ToggleButton
-from data_manager import SSBDataManager
+from kivy.uix.tabbedpanel import TabbedPanel, TabbedPanelHeader, TabbedPanelContent
+from views.QuestionScreen import QuestionScreen
+
+kivy.require('1.0.6')
 
 Builder.load_string("""
-<QuestionScreen>:
-    id: question_screen
-    cols: 1
-    Label:
-        id: question_text
-        text: root.current_question
-        size_hint_y: None
-        height: '48dp'
-    GridLayout:
-        id: answer_container
-        cols: 2
-        padding: 5,5,5,5
-    AnchorLayout:
-        size_hint_y: None
-        height: '48dp'
-        Button:
-            id: answer_button
-            size_hint_y: None
-            height: '48dp'
-            size_hint_x: None
-            width: '80dp'
-            text: 'Confirm'
-            anchor_x: 'center'
-            on_press: root.answer_question()
-    
+<SBContainer>:
+    do_default_tab: False
+    TabbedPanelItem:
+        text: 'Dashboard'
+        Label:
+            text: 'Dashboard content area'
 """)
 
 
-class QuestionScreen(GridLayout):
-    current_question = StringProperty()
+class SSBContainer(TabbedPanel):
+    def __init__(self, test_mode, **kwargs):
+        super(SSBContainer, self).__init__(**kwargs)
 
-    def __init__(self, test_mode=False, **kwargs):
-        super(QuestionScreen, self).__init__(**kwargs)
-
+        # Establish Test Status
         self.test_mode = test_mode
 
         if self.test_mode:
@@ -54,96 +34,49 @@ class QuestionScreen(GridLayout):
         else:
             self.crawler = SwagbucksCrawler()
 
-        self.current_question = 'Hello World!'
-
-        question_data = self.crawler.get_question()
-
-        self.set_question(question_data)
-
+        # Create Data Manager Instance
         self.data_manager = SSBDataManager()
 
-    def set_question(self, question_data):
-        if question_data is not None:
-            self.current_question = question_data["question"]
+        # Create Answering Interface Tab
+        self.answering_interface = TabbedPanelHeader(text="Answer Questions")
 
-            if question_data["type"] == 'select':
-                for answer_option in question_data["answers"]:
-                    if answer_option["data-value"] is not None:
-                        option = ToggleButton(
-                            text=answer_option["text"],
-                            id=answer_option["data-value"]
-                        )
+        self.add_widget(self.answering_interface)
 
-                        self.ids['answer_container'].add_widget(option)
+        self.answering_interface.content = QuestionScreen()
 
-            elif question_data["type"] == 'checkbox':
-                for answer_option in question_data["answers"]:
-                    if answer_option["data-value"] is not None:
-                        option = ToggleButton(
-                                text=answer_option["text"],
-                                id=answer_option["data-value"],
-                                group='radio'
-                            )
+        # Fetch Question
+        question_data = self.crawler.get_question()
 
-                        self.ids['answer_container'].add_widget(option)
+        self.delegate_answering(question_data)
 
-    def answer_question(self):
-        # Get list of all answer options
-        answers = self.ids['answer_container'].children
+    def delegate_answering(self, question_data):
+        self.answering_interface.content.set_question(question_data)
 
-        # Filter answers for selected ones
-        answers = list(
-            filter(
-                lambda x: x.state == 'down',
-                answers
-            )
-        )
-
-        if not self.test_mode:
-            self.record_answer(answers)
-
-        # Get answer id list
-        answers = list(
-            map(
-                lambda x: x.id,
-                answers
-            )
-        )
-
-        # Formatting Data
-        answers = ','.join(answers)
-
-        # Send answer and get new question
-        new_question = self.crawler.send_answer(answers)
-
-        # Clear the board
-        self.ids['answer_container'].clear_widgets()
-
-        # Set Next Question
-        self.set_question(new_question)
-
-    def record_answer(self, answers):
+    def record_answer(self, question, answers):
         data = {
-            "question": self.current_question,
-            "answers": list(
-                map(
-                    lambda x: x.text,
-                    answers
-                )
-            )
+            "question": question,
+            "answers": answers
         }
 
         self.data_manager.input_data(data)
 
+    def answer_question(self, data):
+        if "answer_values" in data:
+            self.crawler.send_answer(data["answer_values"])
+
+        if not self.test_mode and "question" in data and "answer_labels" in data:
+            self.record_answer(data["question"], data["answer_labels"])
+
+        self.delegate_answering(self.crawler.get_question())
+
 
 class SurveyBot(App):
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
     def build(self):
         self.title = 'Super Survey Bot-Inator 9000'
-        return QuestionScreen(test_mode=False)
+        return SSBContainer(test_mode=True)
 
 
 if __name__ == "__main__":
