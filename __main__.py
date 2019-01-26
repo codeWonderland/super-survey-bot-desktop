@@ -81,6 +81,9 @@ class SSBContainer(TabbedPanel):
 
         self.data_manager.input_data(data)
 
+    def get_id(self):
+        return self.data_manager.get_id()
+
 
 class SurveyBot(App):
     def __init__(self, **kwargs):

@@ -12,20 +12,23 @@ import json
 import ssl
 import struct
 import time
-
-import argparse
 import asyncio
 
 
 class NetworkManager:
     loop = None
     client = None
+    main_app = None
 
-    def __init__(self, user_id, server_name='localhost'):
+    def __init__(self, main_app, server_name='localhost'):
+        # Establish Connection to Main App
+        NetworkManager.main_app = main_app
+
+        # Get Async Event Loop
         NetworkManager.loop = asyncio.get_event_loop()
 
         # we only need one client instance
-        NetworkManager.client = AsyncClient(user_id)
+        NetworkManager.client = AsyncClient(main_app.get_id())
 
         # the lambda client serves as a factory that just returns
         # the client instance we just created
