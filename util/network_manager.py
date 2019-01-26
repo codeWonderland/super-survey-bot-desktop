@@ -16,11 +16,12 @@ import time
 import argparse
 import asyncio
 
+
 class NetworkManager:
     loop = None
     client = None
 
-    def __init__(self, user_id):
+    def __init__(self, user_id, server_name='localhost'):
         NetworkManager.loop = asyncio.get_event_loop()
 
         # we only need one client instance
@@ -29,8 +30,12 @@ class NetworkManager:
         # the lambda client serves as a factory that just returns
         # the client instance we just created
         purpose = ssl.Purpose.SERVER_AUTH
-        context = ssl.create_default_context(purpose, cafile="../ca.crt")
-        server_name = 'localhost'
+
+        if server_name == 'localhost':
+            context = ssl.create_default_context(purpose, cafile="../ca.crt")
+
+        else:
+            context = ssl.create_default_context(purpose, cafile=None)
 
         coro = NetworkManager.loop.create_connection(lambda: NetworkManager.client, host=server_name, port=9000, ssl=context,
                                       server_hostname=server_name)
