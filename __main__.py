@@ -9,6 +9,7 @@ from kivy.lang import Builder
 from kivy.uix.gridlayout import GridLayout
 from kivy.properties import StringProperty
 from kivy.uix.togglebutton import ToggleButton
+from data_manager import SSBDataManager
 
 Builder.load_string("""
 <QuestionScreen>:
@@ -42,17 +43,24 @@ Builder.load_string("""
 class QuestionScreen(GridLayout):
     current_question = StringProperty()
 
-    def __init__(self, **kwargs):
+    def __init__(self, test_mode=False, **kwargs):
         super(QuestionScreen, self).__init__(**kwargs)
 
-        # TODO: Return to normal after testing
-        self.crawler = SwagbucksCrawler()
-        # self.crawler = SwagbucksTestCrawler()
+        self.test_mode = test_mode
+
+        if self.test_mode:
+            self.crawler = SwagbucksTestCrawler()
+
+        else:
+            self.crawler = SwagbucksCrawler()
+
         self.current_question = 'Hello World!'
 
         question_data = self.crawler.get_question()
 
         self.set_question(question_data)
+
+        self.data_manager = SSBDataManager()
 
     def set_question(self, question_data):
         if question_data is not None:
@@ -91,11 +99,15 @@ class QuestionScreen(GridLayout):
             )
         )
 
+        if not self.test_mode:
+            self.record_answer(answers)
+
         # Get answer id list
         answers = list(
             map(
                 lambda x: x.id,
-                answers)
+                answers
+            )
         )
 
         # Formatting Data
@@ -110,6 +122,19 @@ class QuestionScreen(GridLayout):
         # Set Next Question
         self.set_question(new_question)
 
+    def record_answer(self, answers):
+        data = {
+            "question": self.current_question,
+            "answers": list(
+                map(
+                    lambda x: x.text,
+                    answers
+                )
+            )
+        }
+
+        self.data_manager.input_data(data)
+
 
 class SurveyBot(App):
 
@@ -118,7 +143,7 @@ class SurveyBot(App):
 
     def build(self):
         self.title = 'Super Survey Bot-Inator 9000'
-        return QuestionScreen()
+        return QuestionScreen(test_mode=False)
 
 
 if __name__ == "__main__":
