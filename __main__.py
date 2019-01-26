@@ -7,7 +7,7 @@ import kivy
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.tabbedpanel import TabbedPanel, TabbedPanelHeader, TabbedPanelContent
-from views.QuestionScreen import QuestionScreen
+from views.question_screen import QuestionScreen
 
 kivy.require('1.0.6')
 

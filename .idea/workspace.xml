@@ -7,8 +7,6 @@
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/pa4 - mpds and reinforcement.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/DashboardScreen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/QuestionScreen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS AND...MINI WRITING ASSIGNMENT #1/submission_text_1.html" beforeDir="false" />
@@ -334,7 +332,9 @@
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/answer_question.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/answer_question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagbucks.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagbucks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/DashboardScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard_screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/QuestionScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/question_screen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,46 +344,59 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SuperSurveyBotDesktop$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1544137447333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1548532120753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1548532804358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#258#265#0" />
+                <element signature="e#1372#1432#0" />
+                <element signature="e#1439#1696#0" />
+                <element signature="e#1887#2447#0" />
+                <element signature="e#3349#3424#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/QuestionScreen.py">
+        <entry file="file://$PROJECT_DIR$/views/question_screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+            <state relative-caret-position="247">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <element signature="e#224#824#0" />
+                <element signature="e#962#1372#0" />
                 <element signature="e#1425#2457#0" />
+                <element signature="e#2109#3045#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/DashboardScreen.py">
+        <entry file="file://$PROJECT_DIR$/views/dashboard_screen.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="152">
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#69#92#0" />
+                <element signature="e#150#241#0" />
+                <element signature="e#390#497#0" />
+                <element signature="e#149#164#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -391,14 +404,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swagbucks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="228">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1548438098612" expanded="true" signature="68:73" ph="..." />
-                <marker date="1548438098612" expanded="true" signature="92:687" ph="..." />
-                <marker date="1548438098612" expanded="true" signature="790:795" ph="..." />
-                <marker date="1548438098612" expanded="true" signature="830:839" ph="..." />
+                <element signature="e#101#681#0" />
+                <element signature="e#719#789#0" />
+                <element signature="e#839#1087#0" />
+                <element signature="e#1156#3092#0" />
+                <element signature="e#3142#3195#0" />
+                <element signature="e#3267#3899#0" />
+                <marker date="1548533198642" expanded="true" signature="92:687" ph="..." />
+                <marker date="1548533198642" expanded="true" signature="790:795" ph="..." />
+                <marker date="1548533198642" expanded="true" signature="830:839" ph="..." />
               </folding>
             </state>
           </provider>
@@ -450,12 +468,12 @@
         <option value="$PROJECT_DIR$/js/answer_dropdown.js" />
         <option value="$PROJECT_DIR$/js/open_survey.js" />
         <option value="$PROJECT_DIR$/js/get_question.js" />
-        <option value="$PROJECT_DIR$/swagbucks.py" />
         <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/views/DashboardScreen.py" />
-        <option value="$PROJECT_DIR$/views/QuestionScreen.py" />
         <option value="$PROJECT_DIR$/js/answer_question.js" />
+        <option value="$PROJECT_DIR$/views/QuestionScreen.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/swagbucks.py" />
       </list>
     </option>
   </component>
@@ -476,6 +494,16 @@
             <path>
               <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
@@ -554,12 +582,12 @@
       <updated>1542151084221</updated>
       <workItem from="1548378503854" duration="2058000" />
       <workItem from="1548427235162" duration="2158000" />
-      <workItem from="1548517812860" duration="7346000" />
+      <workItem from="1548517812860" duration="8424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11562000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,15 +599,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-24" width="960" height="1199" extended-state="6" />
+    <frame x="0" y="-24" width="1920" height="1199" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37555066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18254818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996809" visible="true" weight="0.3764151" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996809" weight="0.3764151" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,32 +728,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/DashboardScreen.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagbucks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1548438098612" expanded="true" signature="68:73" ph="..." />
-            <marker date="1548438098612" expanded="true" signature="92:687" ph="..." />
-            <marker date="1548438098612" expanded="true" signature="790:795" ph="..." />
-            <marker date="1548438098612" expanded="true" signature="830:839" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/open_survey.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -741,24 +745,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/QuestionScreen.py">
+    <entry file="file://$PROJECT_DIR$/views/question_screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="247">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#224#824#0" />
+            <element signature="e#962#1372#0" />
             <element signature="e#1425#2457#0" />
+            <element signature="e#2109#3045#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard_screen.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#69#92#0" />
+            <element signature="e#150#241#0" />
+            <element signature="e#390#497#0" />
+            <element signature="e#149#164#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagbucks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#101#681#0" />
+            <element signature="e#719#789#0" />
+            <element signature="e#839#1087#0" />
+            <element signature="e#1156#3092#0" />
+            <element signature="e#3142#3195#0" />
+            <element signature="e#3267#3899#0" />
+            <marker date="1548533198642" expanded="true" signature="92:687" ph="..." />
+            <marker date="1548533198642" expanded="true" signature="790:795" ph="..." />
+            <marker date="1548533198642" expanded="true" signature="830:839" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        <state relative-caret-position="323">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#258#265#0" />
+            <element signature="e#1372#1432#0" />
+            <element signature="e#1439#1696#0" />
+            <element signature="e#1887#2447#0" />
+            <element signature="e#3349#3424#0" />
           </folding>
         </state>
       </provider>
