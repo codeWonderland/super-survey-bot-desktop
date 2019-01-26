@@ -1,4 +1,5 @@
 import shelve
+import uuid
 
 
 class SSBDataManager:
@@ -15,6 +16,23 @@ class SSBDataManager:
 
         else:
             return None
+
+    def set_id(self, user_id):
+        self.db["user-id"] = user_id
+
+    def get_id(self):
+        # Check for existence of user-id
+        if "user-id" in self.db.keys():
+            return self.db["user-id"]
+
+        else:
+            # Generate ID
+            user_id = str(uuid.uuid4())
+
+            # Put ID in db
+            self.db["user-id"] = user_id
+
+            return user_id
 
     def __del__(self):
         self.db.close()

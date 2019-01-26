@@ -52,6 +52,20 @@ class SSBContainer(TabbedPanel):
 
         self.delegate_answering(question_data)
 
+    def answer_question(self, data):
+        # Make sure question is still unanswered
+        if "question" in data and data["question"] == self.current_question:
+            # Send data to crawler
+            if "answer_values" in data:
+                self.crawler.send_answer(data["answer_values"])
+
+            # Record non-test data in db
+            if not self.test_mode and "question" in data and "answer_labels" in data:
+                self.record_answer(data["question"], data["answer_labels"])
+
+            # Start next question
+            self.delegate_answering(self.crawler.get_question())
+
     def delegate_answering(self, question_data):
         # Update Current Question
         self.current_question = question_data["question"]
@@ -66,20 +80,6 @@ class SSBContainer(TabbedPanel):
         }
 
         self.data_manager.input_data(data)
-
-    def answer_question(self, data):
-        # Make sure question is still unanswered
-        if "question" in data and data["question"] == self.current_question:
-            # Send data to crawler
-            if "answer_values" in data:
-                self.crawler.send_answer(data["answer_values"])
-
-            # Record non-test data in db
-            if not self.test_mode and "question" in data and "answer_labels" in data:
-                self.record_answer(data["question"], data["answer_labels"])
-
-            # Start next question
-            self.delegate_answering(self.crawler.get_question())
 
 
 class SurveyBot(App):

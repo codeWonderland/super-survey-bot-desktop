@@ -330,11 +330,7 @@
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagbucks.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagbucks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/DashboardScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/QuestionScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/question_screen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -351,13 +347,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="399">
+              <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="e#258#265#0" />
+                <element signature="e#505#1121#0" />
                 <element signature="e#1372#1432#0" />
-                <element signature="e#1439#1696#0" />
                 <element signature="e#1887#2447#0" />
                 <element signature="e#3349#3424#0" />
               </folding>
@@ -472,8 +468,8 @@
         <option value="$PROJECT_DIR$/views/DashboardScreen.py" />
         <option value="$PROJECT_DIR$/js/answer_question.js" />
         <option value="$PROJECT_DIR$/views/QuestionScreen.py" />
-        <option value="$PROJECT_DIR$/__main__.py" />
         <option value="$PROJECT_DIR$/swagbucks.py" />
+        <option value="$PROJECT_DIR$/__main__.py" />
       </list>
     </option>
   </component>
@@ -582,12 +578,12 @@
       <updated>1542151084221</updated>
       <workItem from="1548378503854" duration="2058000" />
       <workItem from="1548427235162" duration="2158000" />
-      <workItem from="1548517812860" duration="8424000" />
+      <workItem from="1548517812860" duration="9490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12640000" />
+    <option name="totallyTimeSpent" value="13706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,13 +792,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="399">
+          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#258#265#0" />
+            <element signature="e#505#1121#0" />
             <element signature="e#1372#1432#0" />
-            <element signature="e#1439#1696#0" />
             <element signature="e#1887#2447#0" />
             <element signature="e#3349#3424#0" />
           </folding>
