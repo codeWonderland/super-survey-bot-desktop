@@ -99,6 +99,7 @@ class QuestionScreen(GridLayout):
         # Clear the board
         self.ids['answer_container'].clear_widgets()
 
+        # Send back data
         self.parent.parent.answer_question({
             "question": self.current_question,
             "answer_labels": answer_labels,
