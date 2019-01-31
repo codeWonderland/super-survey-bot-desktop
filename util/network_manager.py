@@ -60,6 +60,9 @@ class AsyncClient(asyncio.Protocol):
         self.is_logged_in = False
         self.user_id = user_id
         self.data_len = 0
+        self.device_type = "DESKTOP"
+        self.transport = None
+        self.has_companion = False
 
     def connection_made(self, transport):
         self.transport = transport
@@ -99,55 +102,46 @@ class AsyncClient(asyncio.Protocol):
             for key in data:
 
                 # Check json key value
-                if key == "USERNAME_ACCEPTED":
+                if key == "USER_ID_ACCEPTED":
                     if data[key]:
                         self.is_logged_in = True
                         print('\nSuccessfully Logged In')
 
                 # ----
-                elif key == "INFO":
-                    print(data[key])
-                    print()
+                elif key == "ANSWER_DATA":
+                    self.answer_question(data)
 
                 # ----
-                elif key == "USER_LIST":
-                    print("USERS ONLINE:")
-                    for user in data[key]:
-                        if user["name"] is not '' and user["active"]:
-                            print(user["name"])
-                    print()
+                elif key == "QUESTION_REQUEST":
+                    self.send_question()
 
-                # ----
-                elif key == "MESSAGES":
-
-                    for message in data[key]:
-
-                        # Ensure message is designated for set user
-                        if message[1] == "ALL" or message[1] == self.user_id:
-
-                            # Convert time seconds to UTC time for prefix of recived message
-                            time_prefix = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(message[2]))
-
-                            # Main display for all given output from the server
-                            if message[0] == self.user_id:
-                                print("[{}] \033[36m{}\033[0m : {}".format(time_prefix,message[0],message[3]))
-                            else:
-                                print("[{}] \033[35m{}\033[0m : {}".format(time_prefix,message[0],message[3]))
-
-                elif key == "USERS_JOINED":
-                    print("New User(s) Joined:")
-                    for user in data[key]:
-                        print(user)
-                    print()
-                elif key == "USERS_LEFT":
-                    print("User(s) Left:")
-                    for user in data[key]:
-                        print(user)
-                    print()
                 # Encapsulates error and other servers' additional features
                 else:
                     # If we get something we aren't expecting, print it
                     print("UNEXPECTED RESP FROM SERVER" + key + ": " + data[key])
+
+    # TODO: Send question data from main app to server for remote answering
+    def send_question(self):
+        question_data = NetworkManager.main_app.get_question()
+
+
+
+    # TODO: Send answer data to server for backup
+    def send_answer(self, data):
+        pass
+
+    # Send answer data to main application
+    @staticmethod
+    def answer_question(data):
+        """
+        Take in answer data from server,
+        format said data for our answering system,
+        then forward the answer to main app
+        :param data:
+        :return:
+        """
+
+        NetworkManager.main_app.answer_question(data)
 
     # When the client is disconnected from the server
     def connection_lost(self, exc):

@@ -3,14 +3,14 @@ let survey_question = document.getElementsByClassName("surveyQuestion");
 
 // make question data frame
 let question_data = {
-    "question" : "",
-    "type" : "",
-    "answers" : []
+    "QUESTION" : "",
+    "TYPE" : "",
+    "ANSWERS" : []
 };
 
 // make template for answers
 let answer_template = {
-    "text" : "",
+    "TEXT" : "",
     "data-value" : null
 };
 
@@ -20,7 +20,7 @@ if (survey_question.length) {
     survey_question = survey_question[0];
 
     // assign question text from page value
-    question_data["question"] = survey_question.getElementsByClassName("surveyQuestionText")[0].innerText;
+    question_data["QUESTION"] = survey_question.getElementsByClassName("surveyQuestionText")[0].innerText;
 
     // grab answer options
     let answer_options = survey_question.getElementsByClassName("questionDropdownOptions");
@@ -32,10 +32,10 @@ if (survey_question.length) {
 
         // check answer options for type of question
     if (answer_options[0].classList.contains("activeSelectMenu")) {
-        question_data["type"] = 'checkbox';
+        question_data["TYPE"] = 'CHECKBOX';
 
     } else {
-        question_data["type"] = 'select'
+        question_data["TYPE"] = 'SELECT'
     }
 
         // grab answer options
@@ -47,11 +47,11 @@ if (survey_question.length) {
             let current_answer = Object.assign({}, answer_template);
 
             // assign values from page
-            current_answer["text"] = option.innerText;
-            current_answer["data-value"] = option.getAttribute("data-value");
+            current_answer["TEXT"] = option.innerText;
+            current_answer["DATA_VALUE"] = option.getAttribute("data-value");
 
             // push current answer to data frame
-            question_data["answers"].push(current_answer);
+            question_data["ANSWERS"].push(current_answer);
         });
     }
 }

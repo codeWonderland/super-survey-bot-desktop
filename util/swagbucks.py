@@ -38,7 +38,7 @@ class SwagbucksCrawler:
 
 class SwagbucksTestCrawler():
     def get_question(self):
-        return {'answers': [{'data-value': '1', 'text': 'First Person Shooter/Action (e.g. Call of Duty)'}, {'data-value': None, 'text': ''}, {'data-value': '2', 'text': '3rd Person Shooter/Action (e.g. Gears of War)'}, {'data-value': None, 'text': ''}, {'data-value': '4', 'text': '3rd Person Adventure (e.g. Super Mario Galaxy)'}, {'data-value': None, 'text': ''}, {'data-value': '7', 'text': 'Point & Click Adventure (e.g. Monkey Island)'}, {'data-value': None, 'text': ''}, {'data-value': '8', 'text': 'Life Simulations (e.g. The Sims)'}, {'data-value': None, 'text': ''}, {'data-value': '10', 'text': 'Music (e.g. Rockband)'}, {'data-value': None, 'text': ''}, {'data-value': '12', 'text': 'Sports: General  (e.g. FIFA)'}, {'data-value': None, 'text': ''}, {'data-value': '15', 'text': 'Real Time Strategy (e.g. Command & Conquer)'}, {'data-value': None, 'text': ''}, {'data-value': '17', 'text': 'Role Playing Game: General (e.g. Final Fantasy)'}, {'data-value': None, 'text': ''}, {'data-value': '19', 'text': 'Massively Multiplayer Online: Role Playing  (e.g. Warcraft)'}, {'data-value': None, 'text': ''}, {'data-value': '21', 'text': 'Racing: General (e.g. Need for Speed)'}, {'data-value': None, 'text': ''}, {'data-value': '23', 'text': 'Flight Simulation (e.g. MS Flight Simulator)'}, {'data-value': None, 'text': ''}, {'data-value': '25', 'text': 'Fighting (e.g. Street Fighter)'}, {'data-value': None, 'text': ''}, {'data-value': '28', 'text': 'Puzzle (e.g. Professor Layton)'}, {'data-value': None, 'text': ''}, {'data-value': '29', 'text': 'Party Games (e.g. Wii Sports)'}, {'data-value': None, 'text': ''}, {'data-value': '32', 'text': 'Casual (e.g. Facebook games)'}, {'data-value': None, 'text': ''}, {'data-value': '33', 'text': 'Other'}, {'data-value': None, 'text': ''}, {'data-value': '34', 'text': "I don't play video/computer games"}], 'question': 'What kind(s) of video/computer games do you play?', 'type': 'select'}
+        return {'ANSWERS': [{'DATA_VALUE': '1', 'TEXT': 'First Person Shooter/Action (e.g. Call of Duty)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '2', 'TEXT': '3rd Person Shooter/Action (e.g. Gears of War)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '4', 'TEXT': '3rd Person Adventure (e.g. Super Mario Galaxy)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '7', 'TEXT': 'Point & Click Adventure (e.g. Monkey Island)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '8', 'TEXT': 'Life Simulations (e.g. The Sims)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '10', 'TEXT': 'Music (e.g. Rockband)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '12', 'TEXT': 'Sports: General  (e.g. FIFA)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '15', 'TEXT': 'Real Time Strategy (e.g. Command & Conquer)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '17', 'TEXT': 'Role Playing Game: General (e.g. Final Fantasy)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '19', 'TEXT': 'Massively Multiplayer Online: Role Playing  (e.g. Warcraft)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '21', 'TEXT': 'Racing: General (e.g. Need for Speed)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '23', 'TEXT': 'Flight Simulation (e.g. MS Flight Simulator)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '25', 'TEXT': 'Fighting (e.g. Street Fighter)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '28', 'TEXT': 'Puzzle (e.g. Professor Layton)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '29', 'TEXT': 'Party Games (e.g. Wii Sports)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '32', 'TEXT': 'Casual (e.g. Facebook games)'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '33', 'TEXT': 'Other'}, {'DATA_VALUE': None, 'TEXT': ''}, {'DATA_VALUE': '34', 'TEXT': "I don't play video/computer games"}], 'QUESTION': 'What kind(s) of video/computer games do you play?', 'TYPE': 'SELECT'}
 
     def send_answer(self, user_answer):
         print(user_answer)
@@ -46,11 +46,11 @@ class SwagbucksTestCrawler():
 
     @staticmethod
     def answer_question_cli(question_data):
-        print(question_data["question"])
+        print(question_data["QUESTION"])
 
-        for answer_option in question_data["answers"]:
-            if answer_option["data-value"] is not None:
-                print(answer_option["data-value"] + ") " + answer_option["text"])
+        for answer_option in question_data["ANSWERS"]:
+            if answer_option["DATA_VALUE"] is not None:
+                print(answer_option["DATA_VALUE"] + ") " + answer_option["TEXT"])
 
         user_answer = None
 
@@ -58,7 +58,7 @@ class SwagbucksTestCrawler():
             user_answer = input("Which answer(s) do you choose (enter the number(s) as comma seperated list): ")
 
             for user_choice in user_answer.split(','):
-                if user_choice not in map(lambda choice: choice["data-value"], question_data["answers"]):
+                if user_choice not in map(lambda choice: choice["DATA_VALUE"], question_data["ANSWERS"]):
                     user_answer = None
 
         return user_answer

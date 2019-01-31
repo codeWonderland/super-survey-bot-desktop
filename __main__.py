@@ -48,41 +48,43 @@ class SSBContainer(TabbedPanel):
         self.answering_interface.content = QuestionScreen()
 
         # Fetch Question
-        question_data = self.crawler.get_question()
+        question_data = self.get_question()
 
         self.delegate_answering(question_data)
 
     def answer_question(self, data):
         # Make sure question is still unanswered
-        if "question" in data and data["question"] == self.current_question:
+        if "QUESTION" in data and data["QUESTION"] == self.current_question:
             # Send data to crawler
-            if "answer_values" in data:
-                self.crawler.send_answer(data["answer_values"])
+            if "ANSWER_VALUES" in data:
+                self.crawler.send_answer(data["ANSWER_VALUES"])
 
             # Record non-test data in db
-            if not self.test_mode and "question" in data and "answer_labels" in data:
-                self.record_answer(data["question"], data["answer_labels"])
+            if not self.test_mode and "QUESTION" in data and "ANSWER_LABELS" in data:
+                self.record_answer(data["QUESTION"], data["ANSWER_LABELS"])
 
             # Start next question
             self.delegate_answering(self.crawler.get_question())
 
     def delegate_answering(self, question_data):
         # Update Current Question
-        self.current_question = question_data["question"]
+        self.current_question = question_data["QUESTION"]
 
         # Send Question to Answering Interface
         self.answering_interface.content.set_question(question_data)
 
     def record_answer(self, question, answers):
         data = {
-            "question": question,
-            "answers": answers
+            "QUESTION": question,
+            "ANSWERS": answers
         }
 
         self.data_manager.input_data(data)
 
     def get_id(self):
         return self.data_manager.get_id()
+
+    def get_question(self): return self.crawler.get_question()
 
 
 class SurveyBot(App):

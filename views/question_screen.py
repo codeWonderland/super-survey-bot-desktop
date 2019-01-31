@@ -41,25 +41,27 @@ class QuestionScreen(GridLayout):
         self.current_question = 'Hello World!'
 
     def set_question(self, question_data):
+        print(question_data)
         if question_data is not None:
-            self.current_question = question_data["question"]
+            self.current_question = question_data["QUESTION"]
 
-            if question_data["type"] == 'select':
-                for answer_option in question_data["answers"]:
-                    if answer_option["data-value"] is not None:
+            if question_data["TYPE"] == 'SELECT':
+                for answer_option in question_data["ANSWERS"]:
+                    if answer_option["DATA_VALUE"] is not None:
                         option = ToggleButton(
-                            text=answer_option["text"],
-                            id=answer_option["data-value"]
+                            text=answer_option["TEXT"],
+                            id=answer_option["DATA_VALUE"]
                         )
 
                         self.ids['answer_container'].add_widget(option)
 
-            elif question_data["type"] == 'checkbox':
-                for answer_option in question_data["answers"]:
-                    if answer_option["data-value"] is not None:
+            elif question_data["TYPE"] == 'CHECKBOX':
+                for answer_option in question_data["ANSWERS"]:
+                    print("OKAY")
+                    if answer_option["DATA_VALUE"] is not None:
                         option = ToggleButton(
-                            text=answer_option["text"],
-                            id=answer_option["data-value"],
+                            text=answer_option["TEXT"],
+                            id=answer_option["DATA_VALUE"],
                             group='radio'
                         )
 
@@ -101,7 +103,7 @@ class QuestionScreen(GridLayout):
 
         # Send back data
         self.parent.parent.answer_question({
-            "question": self.current_question,
-            "answer_labels": answer_labels,
-            "answer_values": answer_values
+            "QUESTION": self.current_question,
+            "ANSWER_LABELS": answer_labels,
+            "ANSWER_VALUES": answer_values
         })
