@@ -93,7 +93,7 @@ class SurveyBot(App):
 
     def build(self):
         self.title = 'Super Survey Bot-Inator 9000'
-        return SSBContainer(test_mode=True)
+        return SSBContainer(test_mode=False)
 
 
 if __name__ == "__main__":

@@ -11,7 +11,6 @@ Last modified as 'NetworkManager' for 'Super Survey Bot Desktop' by Alice Easter
 import json
 import ssl
 import struct
-import time
 import asyncio
 
 
@@ -46,7 +45,7 @@ class NetworkManager:
         NetworkManager.loop.run_until_complete(coro)
 
         # Start a task which reads from standard input
-        asyncio.async(handle_user_input(NetworkManager.loop, NetworkManager.client))
+        # asyncio.async(handle_user_input(NetworkManager.loop, NetworkManager.client))
 
         try:
             NetworkManager.loop.run_forever()
@@ -68,8 +67,20 @@ class AsyncClient(asyncio.Protocol):
         self.transport = transport
         self.is_logged_in = False
 
+        self.login()
+
+    def login(self):
+        login_data = {
+            "DATA_TYPE": "USER_ID",
+            "USER_ID": self.user_id
+        }
+
+        self.send_message(login_data)
+
     # Client sends message
     def send_message(self, data):
+        data["DEVICE_TYPE"] = self.device_type
+
         msg = b''
         msg += struct.pack("!I", len(data))
         msg += data
@@ -106,6 +117,9 @@ class AsyncClient(asyncio.Protocol):
                     if data[key]:
                         self.is_logged_in = True
                         print('\nSuccessfully Logged In')
+                    else:
+                        # TODO: CREATE VISUAL FEEDBACK FOR USER
+                        print("ISSUE LOGGING IN")
 
                 # ----
                 elif key == "ANSWER_DATA":
@@ -120,11 +134,12 @@ class AsyncClient(asyncio.Protocol):
                     # If we get something we aren't expecting, print it
                     print("UNEXPECTED RESP FROM SERVER" + key + ": " + data[key])
 
-    # TODO: Send question data from main app to server for remote answering
+    # Send question data from main app to server for remote answering
     def send_question(self):
         question_data = NetworkManager.main_app.get_question()
+        question_data["DATA_TYPE"] = "QUESTION_DATA"
 
-
+        self.send_message(question_data)
 
     # TODO: Send answer data to server for backup
     def send_answer(self, data):
@@ -151,71 +166,3 @@ class AsyncClient(asyncio.Protocol):
 
         NetworkManager.loop.run_in_executor(None, input, "")
         exit(0)
-
-
-@asyncio.coroutine
-def handle_user_input(loop, client):
-    """reads from stdin in separate thread
-    if user inputs 'quit' stops the event loop
-    otherwise just echos user input
-    """
-    # When new/unknown user joins
-    while not client.is_logged_in:
-
-        # Use username to login
-        login_data = {"USER_ID": client.user_id}
-        data_json = json.dumps(login_data)
-        data_bytes_json = data_json.encode('ascii')
-
-        # Send message to server
-        client.send_message(data_bytes_json)
-
-        # Give server one second delay to push data to it
-        yield from asyncio.sleep(1)
-
-        if not client.is_logged_in:
-            print("This user has already been signed into the current server session!!!")
-
-    # When user is known and logged into the server
-    while client.is_logged_in:
-        recip = "ALL"
-        message = yield from loop.run_in_executor(None, input, "> ")
-
-        # Checking for DM
-        if len(message) != 0 and message[0] == '@':
-            index = message.find(' ')
-            recip = message[1:index]
-            message = message[index + 1:]
-
-        # Checking for command
-        elif len(message) != 0 and message[0] == '/':
-            if message == '/Quit':
-                loop.stop()
-                return
-            elif message == '/Help':
-                print('Chatterbox: The Chat Client You Never Knew You Didn\'t Need')
-                print('---')
-                print('Commands:')
-                print('/Block <username> - blocks messages to and from the specified username')
-                print('/Blocked - display a list of all users whom the client has blocked')
-                print('/DisplayAllUsers - display all users whom have ever been active')
-                print('/DisplayUsers - dispaly all currently active users')
-                print('/Help - display all supported commands')
-                print('/Name - display current user\'s username')
-                print('/Unblock <username> - unblocks messages from the specified username. Note that if the unblocked user has blocked the current client, messages still cannot be sent between the two clients')
-                print('/Quit - quits the application')
-                print('')
-                continue
-            else:
-                recip = client.user_id
-
-        # Format message object to be encoded and JSONified
-        message = {"MESSAGES": [(client.user_id, recip, int(time.time()), message)]}
-        message = json.dumps(message)
-        message = message.encode('ascii')
-        client.send_message(message)
-
-        # Give server one second delay to push data to it
-        yield from asyncio.sleep(1)
-
-    return

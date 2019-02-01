@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/pa4 - mpds and reinforcement.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CSI-480-01: Advanced Topics: AI - Fall 2018 (2018FA)/pa4 - mpds and reinforcement/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
@@ -335,12 +334,7 @@
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/DrawPane.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webcrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webcrawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/network_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/network_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +344,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SuperSurveyBotDesktop$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1544137447333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1548965239283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1548965294202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -374,8 +368,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/question_screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            <state relative-caret-position="527">
+              <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -403,13 +397,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/swagbucks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="40" column="1942" selection-start-line="40" selection-start-column="1942" selection-end-line="40" selection-end-column="1942" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1548965084128" expanded="true" signature="92:687" ph="..." />
-                <marker date="1548965084128" expanded="true" signature="790:795" ph="..." />
-                <marker date="1548965084128" expanded="true" signature="830:839" ph="..." />
+                <marker date="1548965239269" expanded="true" signature="92:687" ph="..." />
+                <marker date="1548965239269" expanded="true" signature="790:795" ph="..." />
+                <marker date="1548965239269" expanded="true" signature="830:839" ph="..." />
               </folding>
             </state>
           </provider>
@@ -427,8 +421,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="394">
+              <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -465,16 +459,16 @@
     <findStrings>
       <find>desktop</find>
       <find>DESKTOP</find>
-      <find>type</find>
       <find>user-id</find>
       <find>&quot;data-value&quot;</find>
+      <find>type</find>
     </findStrings>
     <replaceStrings>
       <replace>MOBILE</replace>
       <replace>DESKTOP</replace>
-      <replace>TYPE</replace>
       <replace>USER_ID</replace>
       <replace>&quot;TEXT&quot;</replace>
+      <replace>TYPE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -492,10 +486,10 @@
         <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" />
         <option value="$PROJECT_DIR$/util/network_manager.py" />
-        <option value="$PROJECT_DIR$/util/swagbucks.py" />
         <option value="$PROJECT_DIR$/util/data_manager.py" />
         <option value="$PROJECT_DIR$/js/get_question.js" />
         <option value="$PROJECT_DIR$/views/question_screen.py" />
+        <option value="$PROJECT_DIR$/util/swagbucks.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
       </list>
     </option>
@@ -613,12 +607,12 @@
       <workItem from="1548517812860" duration="13501000" />
       <workItem from="1548784856299" duration="7408000" />
       <workItem from="1548886445298" duration="36000" />
-      <workItem from="1548886496623" duration="16747000" />
+      <workItem from="1548886496623" duration="17078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41908000" />
+    <option name="totallyTimeSpent" value="42239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,10 +624,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-24" width="1152" height="1199" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-24" width="1920" height="1199" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.48184356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1846895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -783,19 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/swagbucks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1548965084128" expanded="true" signature="92:687" ph="..." />
-            <marker date="1548965084128" expanded="true" signature="790:795" ph="..." />
-            <marker date="1548965084128" expanded="true" signature="830:839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -832,18 +812,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/question_screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/swagbucks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="1942" selection-start-line="40" selection-start-column="1942" selection-end-line="40" selection-end-column="1942" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1548965239269" expanded="true" signature="92:687" ph="..." />
+            <marker date="1548965239269" expanded="true" signature="790:795" ph="..." />
+            <marker date="1548965239269" expanded="true" signature="830:839" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="394">
+          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
         </state>
       </provider>
     </entry>
