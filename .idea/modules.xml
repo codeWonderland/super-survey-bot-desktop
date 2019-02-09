@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../previous/Chatterbox/.idea/Chatterbox.iml" filepath="$PROJECT_DIR$/../previous/Chatterbox/.idea/Chatterbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/.idea/Super-Survey-Bot-Server.iml" filepath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/.idea/Super-Survey-Bot-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webcrawler.iml" filepath="$PROJECT_DIR$/.idea/webcrawler.iml" />
     </modules>

@@ -1,6 +1,7 @@
 from util.swagbucks import SwagbucksCrawler
 from util.swagbucks import SwagbucksTestCrawler
 from util.data_manager import SSBDataManager
+from util.network_manager import NetworkManager
 
 import kivy
 
@@ -8,16 +9,12 @@ from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.tabbedpanel import TabbedPanel, TabbedPanelHeader
 from views.question_screen import QuestionScreen
+from kivy.uix.button import Button
 
 kivy.require('1.0.6')
 
 Builder.load_string("""
-<SBContainer>:
-    do_default_tab: False
-    TabbedPanelItem:
-        text: 'Dashboard'
-        Label:
-            text: 'Dashboard content area'
+<SBContainer>         
 """)
 
 
@@ -52,6 +49,16 @@ class SSBContainer(TabbedPanel):
 
         self.delegate_answering(question_data)
 
+        # Create Dash
+        self.do_default_tab = False
+        # self.default_tab.text = "Dashboard"
+
+        # button = Button(text="Go Online", on_press=self.go_online)
+        # self.default_tab.content = button
+
+        # Add network mananger
+        self.network_manager = None
+
     def answer_question(self, data):
         # Make sure question is still unanswered
         if "QUESTION" in data and data["QUESTION"] == self.current_question:
@@ -85,6 +92,8 @@ class SSBContainer(TabbedPanel):
         return self.data_manager.get_id()
 
     def get_question(self): return self.crawler.get_question()
+
+    def go_online(self, instance): self.network_manager = NetworkManager(self)
 
 
 class SurveyBot(App):
