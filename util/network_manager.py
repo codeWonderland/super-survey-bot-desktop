@@ -29,21 +29,26 @@ class NetworkManager:
         # we only need one client instance
         NetworkManager.client = AsyncClient(main_app.get_id())
 
-        # the lambda client serves as a factory that just returns
-        # the client instance we just created
-        purpose = ssl.Purpose.SERVER_AUTH
-
-        if server_name == 'localhost':
-            context = ssl.create_default_context(purpose, cafile="ca.crt")
-
-        else:
-            context = ssl.create_default_context(purpose, cafile=None)
-
         coro = NetworkManager.loop.create_connection(lambda: NetworkManager.client,
                                                      host=server_name,
-                                                     port=9000,
-                                                     ssl=context,
-                                                     server_hostname=server_name)
+                                                     port=9000)
+
+        # SSL Version
+        # the lambda client serves as a factory that just returns
+        # the client instance we just created
+        # purpose = ssl.Purpose.SERVER_AUTH
+        #
+        # if server_name == 'localhost':
+        #     context = ssl.create_default_context(purpose, cafile="ca.crt")
+        #
+        # else:
+        #     context = ssl.create_default_context(purpose, cafile=None)
+        #
+        # coro = NetworkManager.loop.create_connection(lambda: NetworkManager.client,
+        #                                              host=server_name,
+        #                                              port=9000,
+        #                                              ssl=context,
+        #                                              server_hostname=server_name)
 
         NetworkManager.loop.run_until_complete(coro)
 

@@ -35,4 +35,8 @@ class SSBDataManager:
             return user_id
 
     def __del__(self):
-        self.db.close()
+        try:
+            self.db.close()
+
+        except AttributeError:
+            print("data manager has no db reference upon close")

@@ -35,7 +35,8 @@ class SSBContainer(TabbedPanel):
             self.crawler = SwagbucksCrawler()
 
         # Create Data Manager Instance
-        self.data_manager = SSBDataManager()
+        if not self.test_mode:
+            self.data_manager = SSBDataManager()
 
         # Create Answering Interface Tab
         self.answering_interface = TabbedPanelHeader(text="Answer Questions")
@@ -50,11 +51,10 @@ class SSBContainer(TabbedPanel):
         self.delegate_answering(question_data)
 
         # Create Dash
-        self.do_default_tab = False
-        # self.default_tab.text = "Dashboard"
+        self.default_tab.text = "Dashboard"
 
-        # button = Button(text="Go Online", on_press=self.go_online)
-        # self.default_tab.content = button
+        button = Button(text="Go Online", on_press=self.go_online)
+        self.default_tab.content = button
 
         # Add network mananger
         self.network_manager = None
@@ -86,10 +86,15 @@ class SSBContainer(TabbedPanel):
             "ANSWERS": answers
         }
 
-        self.data_manager.input_data(data)
+        if not self.test_mode:
+            self.data_manager.input_data(data)
 
     def get_id(self):
-        return self.data_manager.get_id()
+        if self.test_mode:
+            return "0"
+
+        else:
+            return self.data_manager.get_id()
 
     def get_question(self): return self.crawler.get_question()
 
@@ -102,7 +107,7 @@ class SurveyBot(App):
 
     def build(self):
         self.title = 'Super Survey Bot-Inator 9000'
-        return SSBContainer(test_mode=False)
+        return SSBContainer(test_mode=True)
 
 
 if __name__ == "__main__":
