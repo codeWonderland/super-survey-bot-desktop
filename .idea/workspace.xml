@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" line="195" />
+    <bookmark url="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" line="196" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be9c7947-1d21-4487-9dba-356eebe3d7de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/ca.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/localhost.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/localhost.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced Algorithms/dungeon-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced Algorithms/dungeon-generator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
@@ -338,12 +335,8 @@
       <change beforePath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../FontGenerator/src/view/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../previous/Chatterbox/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../previous/Chatterbox/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webcrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webcrawler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/ca.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/network_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/network_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +347,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SuperSurveyBotDesktop$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1544137447333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webcrawler$server.coverage" NAME="server Coverage Results" MODIFIED="1549822120751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Super-Survey-Bot-Server" />
-    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="webcrawler Coverage Results" MODIFIED="1549822124660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webcrawler$__main__.coverage" NAME="webcrawler Coverage Results" MODIFIED="1549845974031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webcrawler$client.coverage" NAME="client Coverage Results" MODIFIED="1549753864923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../previous/Chatterbox" />
   </component>
   <component name="FavoritesManager">
@@ -385,12 +378,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/network_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
+            <state relative-caret-position="190">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+              <folding>
+                <element signature="e#359#370#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3249" />
           </provider>
         </entry>
       </file>
@@ -403,11 +406,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="247" column="44" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
               <folding>
                 <element signature="e#277#288#0" expanded="true" />
               </folding>
@@ -430,7 +433,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="-100">
               <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -466,7 +469,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Super-Survey-Bot-Server" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -481,13 +484,13 @@
         <option value="$PROJECT_DIR$/js/get_question.js" />
         <option value="$PROJECT_DIR$/views/question_screen.py" />
         <option value="$PROJECT_DIR$/util/swagbucks.py" />
-        <option value="$PROJECT_DIR$/util/network_manager.py" />
         <option value="$PROJECT_DIR$/../../Super-Survey-Bot-Server/ca.crt" />
         <option value="$PROJECT_DIR$/../previous/Chatterbox/server.py" />
-        <option value="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" />
         <option value="$PROJECT_DIR$/../previous/Chatterbox/client.py" />
         <option value="$PROJECT_DIR$/util/data_manager.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/util/network_manager.py" />
+        <option value="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" />
       </list>
     </option>
   </component>
@@ -519,6 +522,10 @@
               <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Super-Survey-Bot-Server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -624,12 +631,12 @@
       <workItem from="1548886496623" duration="17078000" />
       <workItem from="1548992380372" duration="1264000" />
       <workItem from="1549561280224" duration="22000" />
-      <workItem from="1549746585144" duration="15273000" />
+      <workItem from="1549746585144" duration="16817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58798000" />
+    <option name="totallyTimeSpent" value="60342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,13 +650,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-24" width="1920" height="1199" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16970022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16970022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32924527" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924527" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996809" visible="true" weight="0.3764151" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996809" weight="0.3764151" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -658,7 +665,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031906" side_tool="true" weight="0.53407824" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3207547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32924527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -811,9 +818,6 @@
     <entry file="file://$PROJECT_DIR$/views/dashboard_screen.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/client.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ca.crt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -848,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="247" column="44" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
-          <folding>
-            <element signature="e#277#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../previous/Chatterbox/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1990">
@@ -877,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="-100">
           <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -885,10 +879,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3249" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/network_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="190">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <element signature="e#359#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+          <folding>
+            <element signature="e#277#288#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

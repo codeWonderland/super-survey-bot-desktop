@@ -89,6 +89,10 @@ class AsyncClient(asyncio.Protocol):
     def send_message(self, data):
         data["DEVICE_TYPE"] = self.device_type
 
+        # Encode Data
+        data = json.dumps(data)
+        data = data.encode("ascii")
+
         msg = b''
         msg += struct.pack("!I", len(data))
         msg += data
@@ -117,30 +121,31 @@ class AsyncClient(asyncio.Protocol):
             self.__buffer = ''
             self.data_len = 0
 
-            # Iterate through JSON keys
-            for key in data:
+            print(data)
 
-                # Check json key value
-                if key == "USER_ID_ACCEPTED":
-                    if data[key]:
-                        self.is_logged_in = True
-                        print('\nSuccessfully Logged In')
-                    else:
-                        # TODO: CREATE VISUAL FEEDBACK FOR USER
-                        print("ISSUE LOGGING IN")
+            key = data["DATA_TYPE"]
 
-                # ----
-                elif key == "ANSWER_DATA":
-                    self.answer_question(data)
-
-                # ----
-                elif key == "QUESTION_REQUEST":
-                    self.send_question()
-
-                # Encapsulates error and other servers' additional features
+            # Check json key value
+            if key == "LOGIN_DATA":
+                if data["LOGIN_SUCCESSFUL"]:
+                    self.is_logged_in = True
+                    print('\nSuccessfully Logged In')
                 else:
-                    # If we get something we aren't expecting, print it
-                    print("UNEXPECTED RESP FROM SERVER" + key + ": " + data[key])
+                    # TODO: CREATE VISUAL FEEDBACK FOR USER
+                    print("ISSUE LOGGING IN")
+
+            # ----
+            elif key == "ANSWER_DATA":
+                self.answer_question(data)
+
+            # ----
+            elif key == "QUESTION_REQUEST":
+                self.send_question()
+
+            # Encapsulates error and other servers' additional features
+            else:
+                # If we get something we aren't expecting, print it
+                print("UNEXPECTED RESP FROM SERVER - " + key + ": " + str(data[key]))
 
     # Send question data from main app to server for remote answering
     def send_question(self):
