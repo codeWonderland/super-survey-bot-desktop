@@ -6,7 +6,7 @@
 Open a terminal, navigate to the project directory, and type the following:
 
 ```bash
-$ virtualenv venv --activate
+$ virtualenv venv --distribute
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
