@@ -11,7 +11,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-To Disable Venv Environment:
+To Disable Virtualenv:
 
 ```bash
 $ deactivate
