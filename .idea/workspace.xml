@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" line="196" />
+    <bookmark url="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" line="197" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be9c7947-1d21-4487-9dba-356eebe3d7de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced Algorithms/dungeon-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced Algorithms/dungeon-generator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-110-28: Concepts of the Self - Fall 2016 (2016FA)/SELF-PORTRAIT PAPER/Self Portrait Paper.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../COR-115-28: Rhetoric of Self - Fall 2016 (2016FA)/READINGS /submission_text_1.html" beforeDir="false" />
@@ -336,7 +338,7 @@
       <change beforePath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-tutorial/src/sample/Paint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../previous/Chatterbox/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../previous/Chatterbox/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/network_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/network_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/__main__" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -381,8 +383,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/network_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+            <state relative-caret-position="266">
+              <caret line="129" column="41" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
               <folding>
                 <element signature="e#359#370#0" expanded="true" />
               </folding>
@@ -406,14 +408,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+            <state relative-caret-position="114">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding>
                 <element signature="e#277#288#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="437">
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -469,7 +483,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Super-Survey-Bot-Server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -491,6 +505,7 @@
         <option value="$PROJECT_DIR$/__main__.py" />
         <option value="$PROJECT_DIR$/util/network_manager.py" />
         <option value="$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -631,12 +646,12 @@
       <workItem from="1548886496623" duration="17078000" />
       <workItem from="1548992380372" duration="1264000" />
       <workItem from="1549561280224" duration="22000" />
-      <workItem from="1549746585144" duration="16817000" />
+      <workItem from="1549746585144" duration="21302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60342000" />
+    <option name="totallyTimeSpent" value="64827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +665,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-24" width="1920" height="1199" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16970022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16970022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32924527" />
@@ -665,7 +680,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031906" side_tool="true" weight="0.53407824" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207547" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32924527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -886,21 +901,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/network_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        <state relative-caret-position="266">
+          <caret line="129" column="41" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
           <folding>
             <element signature="e#359#370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/__main__.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Super-Survey-Bot-Server/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+        <state relative-caret-position="114">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding>
             <element signature="e#277#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="437">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
