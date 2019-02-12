@@ -1,11 +1,19 @@
 from selenium import webdriver
 import time
+import platform
+import sys
+import os
 
 
 class SwagbucksCrawler:
     def __init__(self):
-        # create instance of driver
-        self.driver = webdriver.Chrome()
+        # determine current os
+        system = platform.system()
+
+	# grab reference to project dir
+        project_dir = os.getcwd()
+	
+        self.driver = webdriver.Chrome(project_dir + "/drivers/" + system + "/chromedriver")
 
         # load up the login page
         self.driver.get("https://www.swagbucks.com/p/login")
