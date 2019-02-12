@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 import platform
-import sys
 import os
+import random
 
 
 class SwagbucksCrawler:
@@ -10,9 +10,9 @@ class SwagbucksCrawler:
         # determine current os
         system = platform.system()
 
-	# grab reference to project dir
+        # grab reference to project dir
         project_dir = os.getcwd()
-	
+
         self.driver = webdriver.Chrome(project_dir + "/drivers/" + system + "/chromedriver")
 
         # load up the login page
@@ -37,8 +37,8 @@ class SwagbucksCrawler:
         # send answer to page
         self.driver.execute_script(open("./js/answer_question.js").read(), user_answer)
 
-        # TODO: Vary this a bit to emulate people
-        time.sleep(3)
+        # Emulate decision making time for humans
+        time.sleep(random.randint(3, 5))
 
         # return new question
         return self.get_question()
