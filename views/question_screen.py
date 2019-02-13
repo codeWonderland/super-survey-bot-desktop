@@ -45,7 +45,7 @@ class QuestionScreen(GridLayout):
         if question_data is not None:
             self.current_question = question_data["QUESTION"]
 
-            if question_data["TYPE"] == 'SELECT':
+            if question_data["TYPE"] == 'CHECKBOX':
                 for answer_option in question_data["ANSWERS"]:
                     if answer_option["DATA_VALUE"] is not None:
                         option = ToggleButton(
@@ -55,7 +55,7 @@ class QuestionScreen(GridLayout):
 
                         self.ids['answer_container'].add_widget(option)
 
-            elif question_data["TYPE"] == 'CHECKBOX':
+            elif question_data["TYPE"] == 'SELECT':
                 for answer_option in question_data["ANSWERS"]:
                     print("OKAY")
                     if answer_option["DATA_VALUE"] is not None:
