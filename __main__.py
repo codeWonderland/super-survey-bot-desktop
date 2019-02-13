@@ -50,11 +50,12 @@ class SSBContainer(TabbedPanel):
 
         self.delegate_answering(question_data)
 
-        # Create Dash
-        self.default_tab.text = "Dashboard"
-
-        button = Button(text="Go Online", on_press=self.go_online)
-        self.default_tab.content = button
+        self.do_default_tab = False
+        # # Create Dash
+        # self.default_tab.text = "Dashboard"
+        #
+        # button = Button(text="Go Online", on_press=self.go_online)
+        # self.default_tab.content = button
 
         # Add network mananger
         self.network_manager = None
