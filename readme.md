@@ -1,7 +1,19 @@
 # Super Survey Bot Desktop
+
 ## Installation
+### Windows
+Installation is really easy, just download the project and double click the SurveyBot.exe file
 
 ## Dev Setup
+### Windows
+Open powershell, navigate to the project directory, and type the following:
+
+```
+$ virtualenv venv --distribute
+$ venv/Scripts/activate
+$ pip install -r requirements.txt
+```
+
 ### Unix Systems
 Open a terminal, navigate to the project directory, and type the following:
 
