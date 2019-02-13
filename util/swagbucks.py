@@ -10,10 +10,8 @@ class SwagbucksCrawler:
         # determine current os
         system = platform.system()
 
-        # grab reference to project dir
-        project_dir = os.getcwd()
-
-        self.driver = webdriver.Chrome(project_dir + "/drivers/" + system + "/chromedriver")
+        # fetch appropriate driver
+        self.driver = webdriver.Chrome("drivers/" + system + "/chromedriver")
 
         # load up the login page
         self.driver.get("https://www.swagbucks.com/p/login")

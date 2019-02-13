@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['__main__.py'],
-             pathex=['/home/codewonderland/Documents/schoolwork/webcrawler'],
+             pathex=['.'],
              binaries=[],
              datas=[],
              hiddenimports=[],
