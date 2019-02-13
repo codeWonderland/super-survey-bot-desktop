@@ -142,10 +142,14 @@ class AsyncClient(asyncio.Protocol):
             elif key == "QUESTION_REQUEST":
                 self.send_question()
 
+            # ----
+            elif key == "COMPANION_LOST":
+                pass
+
             # Encapsulates error and other servers' additional features
             else:
                 # If we get something we aren't expecting, print it
-                print("UNEXPECTED RESP FROM SERVER - " + key + ": " + str(data[key]))
+                print("UNEXPECTED RESP FROM SERVER - " + key)
 
     # Send question data from main app to server for remote answering
     def send_question(self):
